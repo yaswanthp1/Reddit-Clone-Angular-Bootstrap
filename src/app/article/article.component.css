@@ -1,0 +1,12 @@
+.row {
+  padding: 10px;
+}
+
+#vote {
+  position: relative;
+  text-align: center;
+  background-color: rgb(202, 212, 223);
+}
+span {
+    font-size: 300%;
+}

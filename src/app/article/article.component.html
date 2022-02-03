@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="row">
+        <div class="col-2" id="vote"><span>{{article.votes}}</span> 
+            <div class="label">Points</div>
+        </div>
+        <div class="col">
+            <h2>{{article.title}}</h2>
+            <p>({{article.link}})</p>
+            <div class="row">
+                <div class="col">
+                    <i class="bi bi-arrow-up-circle"></i>
+                    <button type="button" class="btn btn-link" (click)="upVote()">upvote</button>
+                    <i class="bi bi-arrow-down-circle"></i>
+                    <button type="button" class="btn btn-link" (click)="downVote()">downvote</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
